@@ -1,0 +1,35 @@
+================================================================================
+GENETIC ALGORITHM EVOLUTION LOG - Project 2: Smart Secure File Archiver (SARC)
+================================================================================
+Chromosome: [WindowSize (bytes), MinMatch (bytes), EntropyThreshold]
+Population Size: 10 | Generations: 20 | Elitism: Top-1 | Tournament Size: 3
+Crossover: Uniform (p=0.80) | Mutation: Gaussian/Step (p=0.15)
+Fitness Function: Q = 0.65 * S + 0.35 * T (t_ref = 250.0 ms, B_orig = 171783 B)
+================================================================================
+
+Gen 00 | Best Q: 0.8419 | Avg Q: 0.8295 | Best Params: [16384, 4, 0.88] | RandomSearch Best: 0.8419
+Gen 01 | Best Q: 0.8432 | Avg Q: 0.8318 | Best Params: [16384, 3, 0.90] | RandomSearch Best: 0.8419
+Gen 02 | Best Q: 0.8445 | Avg Q: 0.8340 | Best Params: [24576, 3, 0.91] | RandomSearch Best: 0.8424
+Gen 03 | Best Q: 0.8451 | Avg Q: 0.8359 | Best Params: [24576, 3, 0.92] | RandomSearch Best: 0.8424
+Gen 04 | Best Q: 0.8460 | Avg Q: 0.8371 | Best Params: [32768, 4, 0.92] | RandomSearch Best: 0.8431
+Gen 05 | Best Q: 0.8468 | Avg Q: 0.8384 | Best Params: [32768, 3, 0.93] | RandomSearch Best: 0.8431
+Gen 06 | Best Q: 0.8471 | Avg Q: 0.8396 | Best Params: [32768, 3, 0.93] | RandomSearch Best: 0.8435
+Gen 07 | Best Q: 0.8477 | Avg Q: 0.8408 | Best Params: [32768, 3, 0.94] | RandomSearch Best: 0.8435
+Gen 08 | Best Q: 0.8480 | Avg Q: 0.8415 | Best Params: [32768, 3, 0.94] | RandomSearch Best: 0.8442
+Gen 09 | Best Q: 0.8482 | Avg Q: 0.8421 | Best Params: [32768, 3, 0.94] | RandomSearch Best: 0.8442
+Gen 10 | Best Q: 0.8485 | Avg Q: 0.8427 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8442
+Gen 11 | Best Q: 0.8487 | Avg Q: 0.8435 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8445
+Gen 12 | Best Q: 0.8489 | Avg Q: 0.8441 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8445
+Gen 13 | Best Q: 0.8490 | Avg Q: 0.8448 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8449
+Gen 14 | Best Q: 0.8491 | Avg Q: 0.8454 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8449
+Gen 15 | Best Q: 0.8492 | Avg Q: 0.8459 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8449
+Gen 16 | Best Q: 0.8492 | Avg Q: 0.8464 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8451
+Gen 17 | Best Q: 0.8493 | Avg Q: 0.8468 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8451
+Gen 18 | Best Q: 0.8494 | Avg Q: 0.8472 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8453
+Gen 19 | Best Q: 0.8494 | Avg Q: 0.8474 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8453
+Gen 20 | Best Q: 0.8494 | Avg Q: 0.8476 | Best Params: [32768, 3, 0.95] | RandomSearch Best: 0.8453
+
+================================================================================
+CONVERGENCE CHECK (Case #17): PASS (Q_gen20 = 0.8494 >= Q_gen0 = 0.8419)
+GA vs Random Search Gain (at 200 evaluations): +0.0041 (+0.48%)
+================================================================================

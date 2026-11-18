@@ -1,0 +1,33 @@
+{
+  "project": "Project 2: Smart Secure File Archiver (SARC)",
+  "group": "IPZ-21",
+  "metric_Q": {
+    "alpha": 0.65,
+    "beta": 0.35,
+    "t_ref_ms": 250.0
+  },
+  "volumes_and_blocks": {
+    "max_volume_bytes": 65536,
+    "block_size_bytes": 16384,
+    "block_header_overhead_bytes": 15
+  },
+  "dp_fixed_costs_bits": {
+    "literal_bits": 9,
+    "match_base_bits": 17
+  },
+  "type_priorities": {
+    "NaturalText": 100,
+    "SourceCode": 95,
+    "StructuredData": 90,
+    "UncompressedRaster": 80,
+    "Executable": 75,
+    "Synthetic": 60,
+    "AlreadyCompressed": 40
+  },
+  "training_protocol": {
+    "f1_min": 0.80,
+    "initializations": 3,
+    "train_split_size": 350,
+    "valid_split_size": 105
+  }
+}
